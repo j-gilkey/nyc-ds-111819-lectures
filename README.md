@@ -35,3 +35,16 @@ git merge upstream/master -m 'what you updated'
 ```
 git push
 ```
+7. check git status
+```
+git status
+```
+8. Add all altered files
+```
+git add . 
+```
+9. commit changes to local codebaes
+```
+git commit -m 'message here'
+```
+10. then push to remote
