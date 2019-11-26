@@ -3,11 +3,9 @@ def sum67(nums):
     i = 0
     while i < len(nums):
         if nums[i] == 6:
-            print(i)
             i = nums.index(7) + 1
         else :
             new_list.append(nums[i])
-            print(i)
             i += 1
     return sum(new_list)
 
