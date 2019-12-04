@@ -86,11 +86,11 @@ print(missing_score)
 #df['qualify'] = df['qualify'].map({'yes': True, 'no' : False})
 #print(df)
 
-#second and better way
-print(df)
+#second and BETTER way
+#print(df)
 map_dict = {'yes': True, 'no' : False}
 df['qualify'] = df['qualify'].replace(map_dict)
-print(df)
+#print(df)
 
 #remove rows based on NaN values in ['score']
 #print(df)
@@ -98,6 +98,9 @@ df = df.dropna(subset = ['score'])
 #print(df)
 
 #remove rows based on a filter
+print(df)
+df = df[df['score'] > 10]
+print(df)
 
 #clean whitespace off column names
 df.columns = [column.strip() for column in df.columns]
