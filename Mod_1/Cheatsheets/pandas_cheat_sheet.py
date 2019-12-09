@@ -98,9 +98,7 @@ df = df.dropna(subset = ['score'])
 #print(df)
 
 #remove rows based on a filter
-print(df)
 df = df[df['score'] > 10]
-print(df)
 
 #clean whitespace off column names
 df.columns = [column.strip() for column in df.columns]
