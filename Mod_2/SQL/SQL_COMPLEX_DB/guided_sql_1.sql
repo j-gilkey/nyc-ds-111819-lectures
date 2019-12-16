@@ -114,7 +114,7 @@ SELECT
 FROM 
   sales.staffs s 
 WHERE 
-  s.store_id = 3;
+  s.store_id = 3;students
   
 -- Merge the order details together with the staff information so you know which orders to ask about! 
 
