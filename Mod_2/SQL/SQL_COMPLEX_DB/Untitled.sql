@@ -1,0 +1,1 @@
+SELECT zipcode, COUNT(tree_id) FROM birds_trees_etc.trees_2015 GROUP BY zipcode;
